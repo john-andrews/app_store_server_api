@@ -6,11 +6,11 @@ Gem::Specification.new do |spec|
   spec.name = "app_store_server_api"
   spec.version = AppStoreServerApi::VERSION
 
-  spec.authors = ["tsaokoming"]
-  spec.email = ["tsaokoming@mnyify.com"]
+  spec.authors = ["john-andrews"]
+  spec.email = ["torrental@gmail.com"]
   spec.summary = "App Store Server API"
   spec.description = "Manage your customers' App Store transactions from your server."
-  spec.homepage = "https://github.com/mnyify/#{spec.name}"
+  spec.homepage = "https://github.com/john-andrews/#{spec.name}"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
