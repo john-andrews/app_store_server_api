@@ -23,11 +23,15 @@ module AppStoreServerApi
     end
 
     def get_transaction_history(transaction_id, params: nil)
-      request_uri("#{@base_url}/inApps/v1/history/#{transaction_id}", params: params)
+      request_uri("#{@base_url}/inApps/v2/history/#{transaction_id}", params: params)
     end
 
     def get_transaction_info(transaction_id, params: nil)
       request_uri("#{@base_url}/inApps/v1/transactions/#{transaction_id}", params: params)
+    end
+
+    def lookup_order_id(order_id, params: nil)
+      request_uri("#{@base_url}/inApps/v1/lookup/#{order_id}", params: params)
     end
 
     # status
